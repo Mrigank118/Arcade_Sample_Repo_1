@@ -1,0 +1,11 @@
+
+                                                        _   _ ___ ____ _   _   _     _____        __
+                                                       | | | |_ _/ ___| | | | | |   / _ \ \      / /
+                                                       | |_| || | |  _| |_| | | |  | | | \ \ /\ / /
+                                                       |  _  || | |_| |  _  | | |__| |_| |\ V  V /
+                                                       |_| |_|___\____|_| |_| |_____\___/  \_/\_/
+
+
+                              High-Low is a solo guessing game. Pick a number, then predict if the next one will be higher or lower.
+                          Keep guessing right to build a streak. Make a wrong guess, and the game ends. How long can you keep it going?
+
