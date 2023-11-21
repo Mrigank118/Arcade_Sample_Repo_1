@@ -1,0 +1,225 @@
+
+
+## Libraries Used:
+
+1. **stdio.h**
+   - **Usage:** Standard Input and Output operations.
+   - **Functions Used:**
+     - `printf`: Print formatted output.
+     - `scanf`: Read formatted input.
+     - `putchar`: Write a character to stdout.
+
+2. **stdlib.h**
+   - **Usage:** General utilities library.
+   - **Functions Used:**
+     - `rand`: Generate pseudo-random numbers.
+     - `srand`: Seed the random number generator.
+     - `system`: Execute a shell command.
+     - `getchar`: Read a character from stdin.
+
+3. **time.h**
+   - **Usage:** Time and date functions.
+   - **Functions Used:**
+     - `time`: Get the current time.
+     - `NULL`: Null pointer constant.
+
+4. **conio.h** (Assuming it's used for `getch`, which is not standard and might not be available on all systems)
+   - **Usage:** Console Input/Output functions.
+   - **Functions Used:**
+     - `getch`: Read a character without echoing to the screen.
+
+## Functions:
+
+### `displayLogo`
+
+```c
+int displayLogo()
+```
+
+- **Description:** Displays the ASCII art stored in the "main.txt" file.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `Game1`
+
+```c
+int Game1()
+```
+
+- **Description:** Wrapper function for the TIC TAC TOE game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `displayLogoGame_01`
+
+```c
+int displayLogoGame_01()
+```
+
+- **Description:** Displays the ASCII art for the TIC TAC TOE game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `tic_tac_toe`
+
+```c
+int tic_tac_toe()
+```
+
+- **Description:** Implements the logic for the TIC TAC TOE game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `checkwin`
+
+```c
+int checkwin()
+```
+
+- **Description:** Checks the win status in the TIC TAC TOE game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `board`
+
+```c
+void board()
+```
+
+- **Description:** Draws the game board for TIC TAC TOE.
+- **Return Type:** `void`
+- **Parameters:** None.
+
+### `Game2`
+
+```c
+int Game2()
+```
+
+- **Description:** Wrapper function for the High-Low game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `displayLogoGame_02`
+
+```c
+int displayLogoGame_02()
+```
+
+- **Description:** Displays the ASCII art for the High-Low game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `playhighlow`
+
+```c
+void playhighlow()
+```
+
+- **Description:** Implements the logic for the High-Low game.
+- **Return Type:** `void`
+- **Parameters:** None.
+
+### `displayLogoGame_03`
+
+```c
+int displayLogoGame_03()
+```
+
+- **Description:** Displays the ASCII art for the Slot Machine game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `playSlotMachine`
+
+```c
+int playSlotMachine()
+```
+
+- **Description:** Implements the logic for the Slot Machine game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `Game3`
+
+```c
+int Game3()
+```
+
+- **Description:** Wrapper function for the Slot Machine game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `printFileContent`
+
+```c
+void printFileContent(const char *fileName)
+```
+
+- **Description:** Reads and prints the content of a specified file.
+- **Return Type:** `void`
+- **Parameters:** `const char *fileName`
+
+### `printFileContent2`
+
+```c
+void printFileContent2(const char *fileName)
+```
+
+- **Description:** Reads and prints the content of a specified file.
+- **Return Type:** `void`
+- **Parameters:** `const char *fileName`
+
+### `playOddEvenGame`
+
+```c
+void playOddEvenGame()
+```
+
+- **Description:** Implements the logic for the Odd-Even game.
+- **Return Type:** `void`
+- **Parameters:** None.
+
+### `Game4`
+
+```c
+int Game4()
+```
+
+- **Description:** Wrapper function for the Odd-Even game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `main`
+
+```c
+int main()
+```
+
+- **Description:** Entry point for the arcade game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `main`
+
+```c
+int main()
+```
+
+- **Description:** Entry point for the arcade game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+### `main`
+
+```c
+int main()
+```
+
+- **Description:** Entry point for the arcade game.
+- **Return Type:** `int`
+- **Parameters:** None.
+
+---
+
+This list briefly describes each function's purpose, return type, and parameters. Ensure that each function is properly implemented and meets the requirements of your arcade game.
